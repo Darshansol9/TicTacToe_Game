@@ -9,21 +9,21 @@ This Game was a Personal Project without using any deep learning libraries and b
                Gets the summary of the win and lose, with text that motivates you to play again.Until the session is not terminated by the  Input 'N' - Quit the game.</br>
                Human cannot win the game, that's the Assurity.</br>
               
-Loop Holes Addressed: Once Move Played cannot be played again by any player.</br>
+<b>Loop Holes Addressed</b>: Once Move Played cannot be played again by any player.</br>
                       Cannot play outside the game_board considered invalid move and give another chance to play your move.</br>
 
 
 Short Description of Each Function:</br></br>
 
-compMove: Once the play move is done, it checks the possibility of winning the game by player1 and play that relevant move to curtail the chances of winning the game.</br>
+<b>compMove</b>: Once the play move is done, it checks the possibility of winning the game by player1 and play that relevant move to curtail the chances of winning the game.</br>
 It checks the hacks like corners move available, centre moves available, edge moves available etc.</br>
 
-game_board : Sets up the enviroment of the board and starts the game.</br>
-game : Takes the input by the player turn and then amending the change by passing it to the gameboard.</br>
-win : Win checks is their any winner encountered and return True or False respective.</br>
-main : Takes the players name, The input they wanna play on the board and sets the summary of play until the session is terminated.
+<b>game_board</b> : Sets up the enviroment of the board and starts the game.</br>
+<b>game</b> : Takes the input by the player turn and then amending the change by passing it to the gameboard.</br>
+<b>win</b> : Win checks is their any winner encountered and return True or False respective.</br>
+<b>main</b> : Takes the players name, The input they wanna play on the board and sets the summary of play until the session is terminated.
 
-
+<a href="C:/Users/Darshan/Music/raman_kannan/TicTacToe.html">Output</a>
 
 
 
